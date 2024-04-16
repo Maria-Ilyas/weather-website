@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.weather_div {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231019/pngtree-aesthetic-blue-sky-with-clouds-as-textured-background-image_13670859.png");
+    background-size: cover;
+    height: 650px;
+    width: 90%;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.weather_div .secondDiv {
+    background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+    height: 600px;
+    width: 95%;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+.secondDiv h3 {
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.secondDiv .para {
+    padding-left: 430px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: azure;
+}
+
+.inputDiv {
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: rgb(34, 130, 185);
+    border-radius: 20px;
+    width: 310px;
+}
+
+.inputDiv .fa-magnifying-glass {
+    padding: 12px;
+    color: white;
+}
+
+.inputDiv input {
+    width: 250px;
+    padding: 4px;
+    border: none;
+    font-size: 16px;
+}
+
+.flexDiv {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.flexDiv .fa-cloud-rain {
+    font-size: 23px;
+}
+
+.flexDiv .fa-location-dot {
+    font-size: 21px;
+}
+
+.flexDiv h1 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.flexDiv h2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.flexDiv p {
+    color: white;
+    margin-top: 10px;
+}
+
+.flexDiv .fiveDiv {
+    background-color: rgb(34, 130, 185);
+    width: 450px;
+    height: 180px;
+    margin-left: 80px;
+    margin-top: 100px;
+    border-radius: 30px;
+
+}
+
+.fiveDiv p {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.forecast {
+    display: flex;
+}
+
+.mon {
+    margin-left: 20px;
+}
+
+.thurs {
+    margin-left: 50px;
+}
+
+
+
+
+@media screen and (max-width: 1013px) {
+    .flexDiv {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .flexDiv h1 {
+        color: white;
+        margin-left: 40px;
+    }
+
+    .flexDiv h2 {
+        color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .flexDiv p {
+        margin-left: 10px;
+    }
+
+    .flexDiv .fiveDiv {
+        width: 400px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: 80px;
+        border-radius: 30px;
+    }
+
+    .fiveDiv p {
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .forecast {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .mon {
+        margin-left: 10px;
+    }
+
+    .thurs {
+        margin-left: 10px;
+    }
+
+    .inputDiv {
+        margin-left: 300px;
+        margin-top: 50px;
+        background-color: rgb(34, 130, 185);
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .inputDiv .fa-magnifying-glass {
+        padding: 12px;
+        color: white;
+    }
+
+    .inputDiv input {
+        width: 190px;
+        padding: 4px;
+        border: none;
+        font-size: 16px;
+    }
+
+    .weather_div {
+        height: 600px;
+        width: 88%;
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .weather_div .secondDiv {
+        background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+        height: 550px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .secondDiv .para {
+        padding-left: 280px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .flexDiv {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .flexDiv h1 {
+        color: white;
+        margin-left: 40px;
+    }
+
+    .flexDiv h2 {
+        color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .flexDiv p {
+        margin-left: 10px;
+    }
+
+    .flexDiv .fiveDiv {
+        width: 320px;
+        height: 250px;
+        margin-left: 10px;
+        margin-top: 80px;
+        border-radius: 30px;
+
+    }
+
+    .fiveDiv p {
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .forecast {
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .mon {
+        margin-left: 10px;
+    }
+
+    .thurs {
+        margin-left: 10px;
+    }
+
+    .inputDiv {
+        margin-left: 180px;
+        margin-top: 50px;
+        background-color: rgb(34, 130, 185);
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .inputDiv .fa-magnifying-glass {
+        padding: 12px;
+        color: white;
+    }
+
+    .inputDiv input {
+        width: 190px;
+        padding: 4px;
+        border: none;
+        font-size: 16px;
+    }
+
+    .weather_div {
+        height: 600px;
+        width: 88%;
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .weather_div .secondDiv {
+        background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+        height: 550px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .secondDiv .para {
+        padding-left: 170px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .flexDiv {
+        display: block;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .flexDiv h1 {
+        color: white;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+
+    .flexDiv h2 {
+        color: white;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+
+    .flexDiv p {
+        margin-left: 100px;
+    }
+
+    .flexDiv .fiveDiv {
+        width: 350px;
+        height: 250px;
+        margin-left: 100px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    .fiveDiv p {
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+
+
+    .forecast {
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .mon {
+        margin-left: 10px;
+    }
+
+    .thurs {
+        margin-left: 10px;
+    }
+
+    .inputDiv {
+        margin-left: 200px;
+        margin-top: 50px;
+        background-color: rgb(34, 130, 185);
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .inputDiv .fa-magnifying-glass {
+        padding: 12px;
+        color: white;
+    }
+
+    .inputDiv input {
+        width: 190px;
+        padding: 4px;
+        border: none;
+        font-size: 16px;
+    }
+
+
+
+    .weather_div {
+        height: 680px;
+        width: 88%;
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .weather_div .secondDiv {
+        background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+        height: 650px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 700px) {
+    .flexDiv {
+        display: block;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .flexDiv h1 {
+        color: white;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .flexDiv h2 {
+        color: white;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+
+    .flexDiv p {
+        margin-left: 60px;
+    }
+
+    .flexDiv .fiveDiv {
+        width: 350px;
+        height: 250px;
+        margin-left: 60px;
+        margin-top: 20px;
+        border-radius: 30px;
+
+    }
+
+    .fiveDiv p {
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+
+    .forecast {
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .mon {
+        margin-left: 10px;
+    }
+
+    .thurs {
+        margin-left: 10px;
+    }
+
+    .inputDiv {
+        margin-left: 150px;
+        margin-top: 50px;
+        background-color: rgb(34, 130, 185);
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .inputDiv .fa-magnifying-glass {
+        padding: 12px;
+        color: white;
+    }
+
+    .inputDiv input {
+        width: 190px;
+        padding: 4px;
+        border: none;
+        font-size: 16px;
+    }
+
+
+
+    .weather_div {
+        height: 680px;
+        width: 88%;
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .weather_div .secondDiv {
+        background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+        height: 650px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    .flexDiv {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .flexDiv h1 {
+        color: white;
+        margin-left: 100px;
+    }
+
+    .flexDiv h2 {
+        color: white;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    .flexDiv p {
+        margin-left: 20px;
+    }
+
+    .flexDiv .fiveDiv {
+        width: 350px;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 30px;
+
+    }
+
+    .fiveDiv p {
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+
+
+    .forecast {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .mon {
+        margin-left: 1px;
+    }
+
+    .thurs {
+        margin-left: 5px;
+    }
+
+    .inputDiv {
+        margin-left: 130px;
+        margin-top: 20px;
+        background-color: rgb(34, 130, 185);
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .inputDiv .fa-magnifying-glass {
+        padding: 12px;
+        color: white;
+    }
+
+    .inputDiv input {
+        width: 190px;
+        padding: 4px;
+        border: none;
+        font-size: 16px;
+    }
+
+
+
+    .weather_div {
+        height: 650px;
+        width: 88%;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .secondDiv {
+        background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+        height: 630px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .secondDiv .para {
+        padding-left: 100px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .flexDiv {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .flexDiv h1 {
+        color: white;
+        margin-left: 40px;
+    }
+
+    .flexDiv h2 {
+        color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .flexDiv p {
+        margin-left: 10px;
+    }
+
+    .flexDiv .fiveDiv {
+        width: 330px;
+        height: 180px;
+        margin-left: 0px;
+        margin-top: 30px;
+        border-radius: 30px;
+    }
+
+    .fiveDiv p {
+        padding-left: 1px;
+        padding-bottom: 5px;
+    }
+
+
+    .forecast {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .mon {
+        margin-left: 10px;
+    }
+
+    .thurs {
+        margin-left: 10px;
+    }
+
+    .inputDiv {
+        margin-left: 80px;
+        margin-top: 50px;
+        background-color: rgb(34, 130, 185);
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .inputDiv .fa-magnifying-glass {
+        padding: 12px;
+        color: white;
+    }
+
+    .inputDiv input {
+        width: 190px;
+        padding: 4px;
+        border: none;
+        font-size: 16px;
+    }
+
+
+
+    .weather_div {
+        height: 670px;
+        width: 88%;
+        margin-left: 20px;
+        margin-right: 30px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+
+    .weather_div .secondDiv {
+        background-image: linear-gradient(rgba(138, 136, 136, 0.6), rgba(26, 25, 25, 0.6));
+        height: 630px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .secondDiv .para {
+        padding-left: 50px;
+    }
+
+
+}
